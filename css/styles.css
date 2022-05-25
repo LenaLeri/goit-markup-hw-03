@@ -1,0 +1,204 @@
+:root {
+  --primary-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --background-color: #ffffff;
+  --second-backgraund-color: #2f303a;
+  --btn-color: #f5f4fa;
+  --second-btn-color: #188ce8;
+  --address-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--background-color);
+
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.address {
+  font-style: normal;
+  line-height: 1.71;
+}
+
+/* --------------HEADER------------- */
+.logo {
+  color: var(--logo-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.logo:hover,
+.logo:focus {
+  background-color: var(--second-text-color);
+}
+.logo-span {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--second-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* --------------HERO------------- */
+.hero-title {
+  color: var(--third-text-color);
+  background-color: var(--second-backgraund-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* button */
+.button,
+.hero-button {
+  cursor: pointer;
+  font-family: inherit;
+}
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--second-btn-color);
+  color: var(--third-text-color);
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* --------------SPECIFICS------------- */
+.specifics-list .text {
+  color: var(--second-text-color);
+}
+.specifics-list .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.specifics-list .text {
+  line-height: 1.7;
+}
+
+/* --------------WORK------------- */
+.work-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* --------------TEAM------------- */
+.team {
+  background-color: var(--btn-color);
+}
+.team-list .item {
+  background-color: var(--background-color);
+}
+.team-list .text {
+  color: var(--second-text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* --------------FOOTER------------- */
+.footer {
+  background-color: var(--second-backgraund-color);
+}
+.logo-footer {
+  color: var(--third-text-color);
+}
+.street-item {
+  color: var(--third-text-color);
+}
+.footer-list .link {
+  color: var(--address-color);
+}
+.footer-list .link:hover,
+.footer-list .link:focus {
+  color: var(--accent-color);
+}
+
+/* =========PORTFOLIO.HTML============ */
+
+/* --------------WORK LIST------------- */
+.filter .button {
+  background-color: var(--btn-color);
+  color: var(--primary-text-color);
+}
+.filter .button:hover,
+.filter .button:focus {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
+.filter .filter-text {
+  color: var(--second-text-color);
+}
+.filter .button {
+  font-weight: 500;
+  line-height: 1.62;
+}
+.work-list .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.work-list .filter-text {
+  line-height: 1.8;
+}
