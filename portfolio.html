@@ -46,62 +46,86 @@
         <div class="container">
           <h1 class="visually-hidden">Список работ</h1>
           <ul class="list filter-list">
-            <li><button type="button" class="button filter-button">Все</button></li>
-            <li><button type="button" class="button filter-button">Веб-сайты</button></li>
-            <li><button type="button" class="button filter-button">Приложения</button></li>
-            <li><button type="button" class="button filter-button">Дизайн</button></li>
-            <li><button type="button" class="button filter-button">Маркетинг</button></li>
+            <li class="item"><button type="button" class="button filter-button">Все</button></li>
+            <li class="item item-veb">
+              <button type="button" class="button filter-button">Веб-сайты</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button filter-button">Приложения</button>
+            </li>
+            <li class="item"><button type="button" class="button filter-button">Дизайн</button></li>
+            <li class="item">
+              <button type="button" class="button filter-button">Маркетинг</button>
+            </li>
           </ul>
 
           <ul class="list work-list">
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-1.jpg" alt="Ноутбук" width="370" />
-              <h2 class="title">Технокряк</h2>
-              <p class="filter-text">Веб-сайт</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-2.jpg" alt="Два баскетболиста" width="370" />
-              <h2 class="title">Постер New Orlean vs Golden Star</h2>
-              <p class="filter-text">Дизайн</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-3.jpg" alt="Лого ресторана" width="370" />
-              <h2 class="title">Ресторан Seafood</h2>
-              <p class="filter-text">Приложение</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-4.jpg" alt="Наушники" width="370" />
-              <h2 class="title">Проект Prime</h2>
-              <p class="filter-text">Маркетинг</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-5.jpg" alt="Две коробки" width="370" />
-              <h2 class="title">Проект Boxes</h2>
-              <p class="filter-text">Приложение</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-6.jpg" alt="Монитор" width="370" />
-              <h2 class="title">Inspiration has no Borders</h2>
-              <p class="filter-text">Веб-сайт</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-7.jpg" alt="Страницы журнала" width="370" />
-              <h2 class="title">Издание Limited Edition</h2>
-              <p class="filter-text">Дизайн</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img src="./imagin/filter-8.jpg" alt="Лейба" width="370" />
-              <h2 class="title">Проект LAB</h2>
-              <p class="filter-text">Маркетинг</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
-            <li>
+            <li class="card-item item">
               <img
                 src="./imagin/filter-9.jpg"
                 alt="Человек набирает текст на ноутбуке"
                 width="370"
               />
-              <h2 class="title">Growing Business</h2>
-              <p class="filter-text">Приложение</p>
+              <div class="card-content">
+                <h2 class="work-filter title">Технокряк</h2>
+                <p class="filter-text">Веб-сайт</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -113,11 +137,11 @@
         <a href="/" class="link logo logo-footer"><span class="logo-span">Web</span>Studio</a>
         <address class="address">
           <ul class="list footer-list">
-            <li class="street-item">г. Киев, пр-т Леси Украинки, 26</li>
-            <li>
+            <li class="item">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="item">
               <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
               <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
           </ul>
