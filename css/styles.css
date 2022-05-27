@@ -38,6 +38,7 @@ body {
 }
 
 .section {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -82,6 +83,7 @@ img {
 }
 
 /* --------------HEADER------------- */
+
 .main-container {
   display: flex;
   align-items: center;
@@ -169,6 +171,9 @@ img {
 
 .hero {
   text-align: center;
+  background-color: var(--second-backgraund-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -254,6 +259,10 @@ img {
 
 /* --------------WORK------------- */
 
+.work {
+  padding-top: 0;
+}
+
 .work-main-list {
   display: flex;
 }
@@ -276,9 +285,6 @@ img {
 .team {
   background-color: var(--btn-color);
 }
-.team-title {
-  padding-top: 94px;
-}
 
 .team-list {
   display: flex;
@@ -290,6 +296,8 @@ img {
 }
 
 .team-list .item {
+  border-radius: 0px 0px 4px 4px;
+
   background-color: var(--background-color);
 }
 
@@ -309,12 +317,12 @@ img {
 }
 
 .team-card {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* --------------FOOTER------------- */
-.footr-container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -352,14 +360,10 @@ img {
 
 /* --------------WORK LIST------------- */
 
-.filter {
-  padding-top: 94px;
-}
-
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-list .item:nth-last-child(-n + 2) {
